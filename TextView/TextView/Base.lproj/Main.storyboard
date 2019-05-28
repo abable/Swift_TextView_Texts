@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dtw-t1-TJB">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TextView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RpS-98-1eP">
+                                <rect key="frame" x="16" y="60" width="382" height="150"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="oV1-VD-Pou"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RpS-98-1eP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="OVZ-xL-aL3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RpS-98-1eP" secondAttribute="trailing" constant="16" id="bJG-sE-4Xo"/>
+                            <constraint firstItem="RpS-98-1eP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="r3W-4i-JR3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="RpS-98-1eP" id="vo2-gf-Rkh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Image Attachment-->
+        <scene sceneID="vgW-J6-Qgk">
+            <objects>
+                <viewController title="Image Attachment" id="sIH-6s-fmd" customClass="ImageAttachmentViewController" customModule="TextView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oTx-Nk-iJf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TPM-6P-c4y">
+                                <rect key="frame" x="16" y="60" width="382" height="786"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KJv-p8-ifa" firstAttribute="bottom" secondItem="TPM-6P-c4y" secondAttribute="bottom" constant="16" id="7jS-Zj-7Ff"/>
+                            <constraint firstItem="TPM-6P-c4y" firstAttribute="leading" secondItem="KJv-p8-ifa" secondAttribute="leading" constant="16" id="98W-Sc-oHh"/>
+                            <constraint firstItem="TPM-6P-c4y" firstAttribute="top" secondItem="KJv-p8-ifa" secondAttribute="top" constant="16" id="SqZ-cZ-Xcw"/>
+                            <constraint firstItem="KJv-p8-ifa" firstAttribute="trailing" secondItem="TPM-6P-c4y" secondAttribute="trailing" constant="16" id="vJa-Ug-NUR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KJv-p8-ifa"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="TPM-6P-c4y" id="wyg-IG-3GU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xL7-lz-9GZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1510" y="14"/>
+        </scene>
+        <!--Text Selection-->
+        <scene sceneID="jQ3-0A-u0D">
+            <objects>
+                <viewController title="Text Selection" id="70T-j0-xnL" customClass="TextSelectionViewController" customModule="ViewCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SqP-Ux-yS8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rEJ-aS-Cca">
+                                <rect key="frame" x="16" y="60" width="382" height="402"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="70T-j0-xnL" id="DWg-gr-q6v"/>
+                                </connections>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Z1a-TQ-DhC">
+                                <rect key="frame" x="168.5" y="812" width="77" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTq-s9-NNz">
+                                        <rect key="frame" x="0.0" y="0.0" width="77" height="30"/>
+                                        <state key="normal" title="Select Last"/>
+                                        <connections>
+                                            <action selector="selectLast:" destination="70T-j0-xnL" eventType="touchUpInside" id="Wbl-Gs-oa3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vtA-2u-wZV" firstAttribute="bottom" secondItem="rEJ-aS-Cca" secondAttribute="bottom" constant="400" id="ApJ-fm-j6E"/>
+                            <constraint firstItem="vtA-2u-wZV" firstAttribute="bottom" secondItem="Z1a-TQ-DhC" secondAttribute="bottom" constant="20" id="Ja5-lp-eC2"/>
+                            <constraint firstItem="rEJ-aS-Cca" firstAttribute="top" secondItem="vtA-2u-wZV" secondAttribute="top" constant="16" id="NqS-QF-cxf"/>
+                            <constraint firstItem="rEJ-aS-Cca" firstAttribute="leading" secondItem="vtA-2u-wZV" secondAttribute="leading" constant="16" id="hM9-OL-h37"/>
+                            <constraint firstItem="vtA-2u-wZV" firstAttribute="trailing" secondItem="rEJ-aS-Cca" secondAttribute="trailing" constant="16" id="q0H-Kl-gVJ"/>
+                            <constraint firstItem="Z1a-TQ-DhC" firstAttribute="centerX" secondItem="vtA-2u-wZV" secondAttribute="centerX" id="zjj-af-Y2A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vtA-2u-wZV"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="rEJ-aS-Cca" id="jxW-p3-zAD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="80Y-by-YwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2412" y="7"/>
+        </scene>
+        <!--Data Detection-->
+        <scene sceneID="tBC-r1-qB0">
+            <objects>
+                <viewController title="Data Detection" id="dtw-t1-TJB" customClass="DataDetectionViewController" customModule="ViewCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="077-9B-Xpb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oVB-if-NQX">
+                                <rect key="frame" x="20" y="74" width="374" height="129"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="FlM-5x-h7S"/>
+                                </constraints>
+                                <string key="text">https://naver.com
+
+서울시 서초구 서초동 
+
+010-0000-0000</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oVB-if-NQX" firstAttribute="leading" secondItem="XJ4-j7-EE0" secondAttribute="leading" constant="20" id="ToQ-iU-AWu"/>
+                            <constraint firstItem="oVB-if-NQX" firstAttribute="top" secondItem="XJ4-j7-EE0" secondAttribute="top" constant="30" id="bRV-9v-xQ1"/>
+                            <constraint firstItem="XJ4-j7-EE0" firstAttribute="trailing" secondItem="oVB-if-NQX" secondAttribute="trailing" constant="20" id="uUW-cv-TSu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XJ4-j7-EE0"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="oVB-if-NQX" id="uFN-oS-V4N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2lA-oO-nsI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="-9"/>
+        </scene>
+    </scenes>
+</document>
